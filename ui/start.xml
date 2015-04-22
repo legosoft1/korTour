@@ -6,7 +6,7 @@
 	
 	<UILAYOUT portrait="320,480" landscape="320,480">
 		<WINDOW layout="0,0,320,480" img="white" align="linear:vertical" padding="10,20,10,0">
-			<LABEL text="관광정보 검색 : "/>
+			<LABEL text="관광정보 검색 : "/>   
 			
 			<WINDOW align="linear:vertical|subCenter">
 				<LABEL text="지역 : " />
