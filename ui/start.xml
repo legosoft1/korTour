@@ -60,6 +60,10 @@
 
 	<!-- 로딩되면 지역 코드 업데이트.-->
 	<CMD cmd="function.updateArea" />
+	
+	<FUNCTION id="function_id(a, b)">
+		<CMD condition="a gt b" cmd="'a가 큽니다.'" elseCmd="'b가 큽니다.'"/>
+	</FUNCTION>
 
 	<FUNCTION id="updateArea">
 		<CMD cmd="url = 'http://api.visitkorea.or.kr/openapi/service/rest/KorService/areaCode?' + userVariable.commonParam"/>
